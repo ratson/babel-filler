@@ -1,0 +1,18 @@
+{
+  "name": "babel-plugin-filler",
+  "version": "0.0.0",
+  "description": "Fill undeclared variables per configuration.",
+  "repository": "https://github.com/ratson/babel-filler/tree/master/packages/babel-plugin-filler",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "*.md",
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.0.0-beta.42"
+  }
+}

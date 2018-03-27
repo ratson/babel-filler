@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fill import from default and named export 1`] = `
+"import { Component as _Component } from \\"react\\";
+import _default from \\"react\\";
+
+class App extends _Component {
+  render() {
+    return _default.createElement('div');
+  }
+
+}"
+`;
+
+exports[`fill import from default export 1`] = `
+"import _default from \\"lodash\\";
+
+_default.random();"
+`;
+
+exports[`fill import from named export 1`] = `
+"import { random as _random } from \\"lodash\\";
+
+_random();"
+`;
+
+exports[`fill import from named export as alias 1`] = `
+"import { random as _f } from \\"source\\";
+
+_f();"
+`;
