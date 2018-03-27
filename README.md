@@ -5,13 +5,28 @@ Fill undeclared variables per configuration.
 ## Installation
 
 ```
-npm install babel-plugin-filler --save
+npm install babel-plugin-filler --save-dev
 ```
 
 ## Usage
 
-<!-- eslint-disable strict -->
+### Via `.babelrc`
 
-```js
-const babelpluginfiller = require('babel-plugin-filler')
+**.babelrc**
+
+```json
+{
+  "plugins": [
+    [
+      "filler",
+      {
+        "vars": {
+          "_": "lodash",
+          "Component": { "name": "Component", "module": "react" },
+          "React": "react"
+        }
+      }
+    ]
+  ]
+}
 ```
