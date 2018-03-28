@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-filler",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Fill undeclared variables per configuration.",
   "repository": "https://github.com/ratson/babel-filler/tree/master/packages/babel-plugin-filler",
   "license": "MIT",
